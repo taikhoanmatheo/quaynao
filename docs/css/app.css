@@ -1,0 +1,48 @@
+body {
+    margin-top: 60px;
+}
+
+.slotwrapper {
+    overflow: hidden;
+    /*display: inline-block;
+    border: 1px solid #000;*/
+    height: 100px;
+	margin: 0 auto;
+	width: 80%;
+}
+.slotwrapper ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    float: left;
+}
+.slotwrapper ul {
+    width: 100PX;
+    height:100PX;
+    font-size: 100PX;
+    line-height: 100PX;
+    text-align: center;
+}
+.slotwrapper ul li img {
+    vertical-align: top;
+}
+@media screen and (max-width: 1200px) {
+    .slotwrapper {
+        width: 100%;
+    }
+    .slotwrapper ul {
+        width: 12%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .slotwrapper {
+        height: 30px;
+    }
+    .slotwrapper ul {
+        height:30px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
